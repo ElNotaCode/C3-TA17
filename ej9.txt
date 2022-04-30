@@ -1,0 +1,7 @@
+use ciencia
+
+db.cientifico.insertMany([{_id:1,"dni":"12345678","nombreApellidos":"Emilio Delgado"},{_id:2,"dni":"87456123","nombreApellidos":"Juan Cuesta"}])
+
+db.proyecto.insertMany([{_id:1,"nombre":"Jetpack","horas":300},{_id:2,"nombre":"Cyborg","horas":800}])
+
+db.asignado.insertMany([{_id:1,"id_cientifico":1,"id_proyecto":1},{_id:2,"id_cientifico":2,"id_proyecto":2}])

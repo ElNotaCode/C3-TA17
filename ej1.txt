@@ -1,0 +1,9 @@
+use tienda_informatica
+
+db.createCollection("articulos")
+
+db.createCollection("fabricantes")
+
+db.fabricantes.insertMany([{_id:1, "nombre": 'Sonny'},{_id:2, "nombre": 'Samsung'},{_id:3, "nombre": 'Netway'}])
+
+db.articulos.insertMany([{_id:1, "nombre": 'Sonny Headphones',"precio":20, "fabricante" : 1},{_id:2, "nombre": 'Samsung Headphones',"precio":15, "fabricante" : 2},{_id:3, "nombre": 'Netway Headphones',"precio":10, "fabricante" : 3}])

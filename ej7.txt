@@ -1,0 +1,9 @@
+use grandesAlmacenes
+
+db.cajeros.insertMany([{_id:1,"nombreApellidos":"Emilio Delgado"},{_id:2,"nombreApellidos":"Juan Cuesta"}])
+
+db.productos.insertMany([{_id:1,"nombre":"Platano", "precio":10},{_id:2,"nombre":"pera", "precio":50}])
+
+db.maquinas_registradoras.insertMany([{_id:1,"piso":"1ro"},{_id:2,"piso":"2do"}])
+
+db.venta.insertMany([{_id:1,"id_cajero":1,"id_maquina":1,"id_producto":1},{_id:2,"id_cajero":2,"id_maquina":2,"id_producto":2}])

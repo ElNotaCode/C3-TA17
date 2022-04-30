@@ -1,0 +1,5 @@
+use empresa
+
+db.empleados.insertMany([{dni:"12345678", "nombre": 'Juan',"apellidos":"Garcia", "departamento" : 1},{dni:"87654321", "nombre": 'Sammy',"apellidos":"Romero", "departamento" : 2},{dni:"123458766", "nombre": 'Josele',"apellidos":"Garcia", "departamento" : 1}])
+
+db.departamentos.insertMany([{_id:1,"nombre":"Marketing", "presupuesto" : 5000},{_id:2,"nombre":"Finanzas", "presupuesto" : 1000}])

@@ -1,0 +1,5 @@
+use jefes
+
+db.despachos.insertMany([{_id:1,"capacidad" : 3},{_id:2,"capacidad" : 2}])
+
+db.directores.insertMany([{"dni":"12345678","nombreApellidos":"Kilian Martos", "despacho" : 2, "dniJefe" : "12345888"},{"dni":"12345888","nombreApellidos":"Cristina Garcia", "despacho" : 1}])

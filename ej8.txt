@@ -1,0 +1,9 @@
+use investigaciones
+
+db.facultad.insertMany([{_id:1,"nombre":"Dudeversity"},{_id:2,"nombre":"Fake University"}])
+
+db.investigadores.insertMany([{_id:1,"dni":"12345678","nombreApellidos":"Emilio Delgado","id_universidad":1},{_id:2,"dni":"87456123","nombreApellidos":"Juan Cuesta","id_universidad":1}])
+
+db.equipos.insertMany([{_id:1,"NumSerie":"EMDE","nombre":"Equipo Delgado","id_universidad":1},{_id:2,"NumSerie":"JUCU","nombre":"Equipo Cuesta","id_universidad":1}])
+
+db.reserva.insertMany([{_id:1,"NumSerie":"EMDE","comienzo":"2020","id_universidad":1,"fin" : 2023},{_id:2,"NumSerie":"JUCU","comienzo":"2021","id_universidad":1,"fin" : 2023}])

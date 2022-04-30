@@ -1,0 +1,5 @@
+use almacenes
+
+db.cajas.insertMany([{_id:1,"contenido":"juguetes", "valor" : 5000, "almacen" : 1},{_id:2,"contenido":"barras de hierro", "valor" : 1000, "almacen" : 2}])
+
+db.almacenes.insertMany([{_id:1,"lugar":"Puerto", "capacidad" : 120},{_id:2,"lugar":"Constanti", "capacidad" : 300}])

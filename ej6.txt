@@ -1,0 +1,7 @@
+use proveedoresPiezas
+
+db.piezas.insertMany([{_id:1,"nombre":"tornillo"},{_id:2,"nombre":"tuerca"}])
+
+db.proveedores.insertMany([{_id:1,"nombre":"Ticnova"},{_id:2,"nombre":"Coruscant"}])
+
+db.precios.insertMany([{_id:1,"idroveedor":1, "precio":5},{_id:2,"idroveedor":1, "precio":10}])

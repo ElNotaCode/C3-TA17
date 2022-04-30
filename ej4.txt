@@ -1,0 +1,5 @@
+use cine
+
+db.salas.insertMany([{_id:1,"nombre":"SALA1", "pelicula" : 1},{_id:2,"nombre":"SALA2", "pelicula" : 2}])
+
+db.peliculas.insertMany([{_id:1,"nombre":"Spoderman: ¡Solo en casa!", "calificacionEdad" : 8},{_id:2,"nombre":"MongoDB 8 hour long tutorial", "calificacionEdad" : 18}])
